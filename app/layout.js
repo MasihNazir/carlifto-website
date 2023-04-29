@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${noto_sans_jp.variable}${roboto_mono.variable} bg-slate-50 w-full min-h-fit`}
+        className={` ${noto_sans_jp.variable}${roboto_mono.variable} min-h-fit w-full text-slate-700`}
       >
         <Navbar />
         {children}
