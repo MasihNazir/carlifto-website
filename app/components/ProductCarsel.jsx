@@ -24,6 +24,12 @@ const ProductCarsel = () => {
   return (
     <section className="my-12 w-full">
       <div className="mx-auto max-w-8xl px-4 2xl:px-16">
+        <h2 className="mb-6 text-center text-4xl font-bold text-slate-900 sm:text-5xl">
+          廃車買取実績
+        </h2>
+        <p className="mb-7 text-center">
+          廃車買取カーネクストで買い取らせていただいたお車の詳細情報を掲載しております。
+        </p>
         <Carousel
           responsive={responsive}
           ssr
